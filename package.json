@@ -1,0 +1,30 @@
+{
+  "name": "typescript-vue-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config ./webpack/webpack.prod.config.babel.js",
+    "dev-build": "npx webpack --config ./webpack/webpack.dev.config.babel.js",
+    "watch": "npx webpack -w --config ./webpack/webpack.dev.config.babel.js",
+    "serve": "npx webpack-dev-server --config ./webpack/webpack.dev.config.babel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "html-webpack-plugin": "^3.0.6",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
+}
